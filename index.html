@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#atributos">Atríbutos das Tags</a></li>
+        <li><a href="#referencia">Links de referências</a></li>
+    </ul>
+    <hr>
+    <h2>O que são <i id="clients">Clients</i>?</h2>
+    <p>
+        <abbr title="Clientes"><Strong>Clients</strong></abbr> são todos os tipos de aparelhos (Celular, relogio, geladeira ...) que solicitam informações para algum <abbr title="Servidor"><strong>Servers</strong></abbr>, por exemplo, abrir um site no navegador, fazer download de uma musica ou dar play em um video, essas solicitações são enviadas para o servidor que devolve a informação solicitada.
+    </p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>
+        Já os <strong><i>Servers</i></strong> são computadores usados para armazenamento de dados e existem tanto servidores remotos quanto locais, geralmente os servidores são computadores mais robustos <del>ounão</del> por terem que se conectar com vários <strong><i>Clients</i></strong> fazendo com que tenham que processar muita informação simultaneamente.
+    </p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
+    <p>
+        A estrutura básica do <abbr title=" Linguagem de Marcação de Hipertexto"><strong>HTML</strong></abbr> basicamente não muda, geralmente editores de código tem atalhos para criar essa estrutura. 
+        Sendo ela as tags:<br>
+        &lt;html&gt;&lt;/html&gt; - Todo documento HTML deve iniciar e finalizar com essa tag.<br>
+        &lt;head&gt;&lt;/head&gt; - Tag que determina o cabeçalho do documento, as informações aqui não são visíveis para o usuário do documento, mas <strong>isso não significa que pode colocar informações sigilosas</strong> as informações colocadas no <i>HEAD</i> podem ser vistas por outros meios.<br>
+        &lt;title&gt;&lt;/title&gt; - Essa tag diz qual é o título da página, é o nome que aparece na aba/janela/guia do seu navegador.<br>
+        &lt;body&gt;&lt;/body&gt; - Essa tag é o documento em si as informações legiveis<sup>*</sup>ao usuário.
+    </p>
+        <sub>*Não só texto como imagens, musicas, qualquer conteúdo multimídia e etc.</sub>
+        <blockquote>
+            <mark>DOCTYPE apesar de não ser uma tag HTML ele sempre deve estar presente! Ele é uma <u>instrução</u> para os programas que podem ler seu site.</mark>
+        </blockquote>
+        <small><a href="#inicio">Voltar</a></small>
+    <h2 id="atributos">Atríbutos das Tags</h2>
+    <p>
+        Existe uma infinidade de atributos e eles são divididos em dois tipos, os globais aceitos por todas as tags como, por exemplo: id, class e style e também existem tags com propriedades específicas como type ou src.
+    </p>
+    <small><a href="#inicio">Voltar</a></small>
+    <h3>Tá, mas para que serve?</h3>
+    <h4>Os atributos mudam o modo como o navegador vai apresentar uma tag para o usuário.</h4>
+    <p>
+        <strong>Ex:</strong><br>
+        A tag input sendo usada com atributo color <strong>&lt;input type="color"&gt;</strong> fica assim: <input type="color"> onde o usuário pode escolher a cor que quiser, mas também pode ser usada, por exemplo, com atributo text <strong>&lt;input type="text"&gt;</strong> <input type="text"> que é mostrado uma caixa onde usuário pode escrever o que quiser. Às duas são tags <strong><u>inputs</u></strong>, mas estão sendo usadas de formas completamente diferentes.
+    </p>
+    <small><a href="#inicio">Voltar</a></small>
+    <h2 id="referencia">Links de referências</h2>
+    <p>
+        Apesar de existir diversos guias, uma forma segura e rápida de conseguir  informações sobre tags ou atributos  é direto na documentação do mesmo, lá você encontra diversos exemplos e explicações, sem falar nas atualizações mais recentes.
+    </p>
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="#">http://developer.mozila.org</a></li>
+        <li><a href="#">https://devdocs.io</a></li>
+    </ul>
+    <small><a href="#inicio">Voltar</a></small>
+</body>
+</html>
